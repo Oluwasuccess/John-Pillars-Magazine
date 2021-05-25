@@ -1,0 +1,221 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+    width:auto;
+    justify-content: center;
+    text-align:justify;
+    align-items:center;
+    max-width:1350px;
+    background-image:url('./images/backgroung-image.png');
+    background-color:rgba(180, 238, 180, 0.267);
+}
+.jpi-logo{
+    height:50px;
+    width:180px;
+    justify-content: left;
+    padding-left:20px;
+    }
+Header{
+    display: flex;
+    border:1px ridge limegreen;
+    border-radius:5px;
+    background-color:rgba(12, 20, 4, 0.623);
+    width:100%;
+    margin:0;
+    top:0;
+    padding:0;
+}
+
+#magazine-heading{
+   padding-left: 200px;
+}
+ .main-heading
+{
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(173, 241, 14);
+    padding: 5px 0 2px 600px;
+    font-size: 20px;
+    text-decoration: solid;
+}
+
+p{
+    line-height: 1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    max-width: 1200px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+h4{
+    font-family:'Montserrat', sans-serif;
+    font-size:9px;  
+}
+.row{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+    width:100%;
+    padding:0 70px;
+    max-width: 1200px;
+}
+.jp{
+    border: 1px solid rgb(153, 151, 151);
+    padding:0;
+    width:fit-content;
+}
+.seminar{
+    width:33%;  
+}
+
+.Mr-Dele-Adeleke{
+    width:60%;
+    padding-left:300px;
+}
+.department{
+    color:rgb(20, 18, 17);
+    font-weight: bold;
+    text-decoration: none;
+    text-align:center;
+}
+.department-image{
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.departments{
+    display: flex;
+    align-items: row;
+    flex-wrap:wrap;
+    text-shadow: #000;
+    padding: 20px;
+    justify-content: center;
+}
+.jp-tittle{
+    font-weight: normal;
+    font-style:italic;
+    color:#fff;
+    font-size:16px;
+    background-color:rgb(48, 48, 48);
+    text-align: center;
+    padding-top:0;
+}
+
+.group-photo{
+    width:50%;
+    padding-bottom:0;
+}
+.group-image{
+    padding-left:140px;
+    width:1000px;
+    height:500px;
+}
+
+.editorial-desk{
+border: 1px solid rgb(153, 151, 151);
+}
+
+.editorial{
+    width:100%;
+    padding:20px;
+}
+.about{
+    width:100%;
+    padding-right:130px;
+}
+
+.subheading{
+    text-align:center;
+    color: limegreen;
+    font-size:20px;
+    justify-content:center;
+}
+a{
+    text-decoration:none;
+    padding-left: 5px;
+}
+.nav-item{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    margin:0;
+    border-radius: 50%;
+    height:10em;
+    width:10em;
+}
+
+.nav-item:hover{
+    height:12em;
+    width:12em;
+}
+.nav-list{
+    display:flex;
+    align-items:row;
+    width:25%;
+    justify-content:space-between;
+    padding-left: 100px;
+    
+   
+}
+.vision{
+    text-align: center;
+    justify-content: center;
+    color:limegreen;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mission{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border: 1px dotted limegreen;
+    border-radius: 100px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+
+.social-links{
+    align-items: center;
+    width: 0px;
+    height: 10px;
+    padding:20px;
+    text-decoration: none;
+}
+.social-links :hover{
+    height:80px;
+    width:80px;
+}
+
+.copyright{
+    display:flex;
+    direction:row;
+    padding-top:40px;
+}
+.copyright{
+    font-size:small;
+    justify-content: center;
+}
+.copyright-icon{
+    width: 10px;
+    height:10px;
+}
+span{
+    font-size:18px;
+    color:limegreen;
+    text-decoration:none;
+}
+.name{
+font-size: 20px;
+font-weight: bold;
+color:#000;
+}
+.john-mahuton{
+width:500px;
+height:400px;
+padding-left:100px;
+}
